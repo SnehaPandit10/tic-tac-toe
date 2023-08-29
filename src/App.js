@@ -47,7 +47,7 @@ function App() {
       }
     }
 
-    // check for a toe condition and increses the score
+    // check for a tie condition and increse the score for draw
     let filled = true;
     updateBoard.map((item) => {
       if (item === null)
